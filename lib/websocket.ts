@@ -1,6 +1,6 @@
 
 import { io, Socket } from 'socket.io-client';
-import { Agent, SystemLog, SystemAlert } from '@/types';
+import { Agent, LogEntry, SystemAlert } from '@/types';
 
 /**
  * WebSocket manager for real-time updates
@@ -47,7 +47,7 @@ class WebSocketManager {
     });
 
     // System logs
-    this.socket.on('log:stream', (log: SystemLog) => {
+    this.socket.on('log:stream', (log: LogEntry) => {
       window.dispatchEvent(new CustomEvent('new-system-log', { detail: log }));
     });
 

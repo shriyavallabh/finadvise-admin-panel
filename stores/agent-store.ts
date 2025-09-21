@@ -174,7 +174,7 @@ export const useAgentStore = create<AgentStore>()(
           set((state) => {
             const index = state.agents.findIndex(a => a.id === id)
             if (index !== -1) {
-              state.agents[index].status = 'active'
+              state.agents[index].status = 'active' as AgentStatus
               state.agents[index].lastActivity = new Date()
               state.agents[index].updatedAt = new Date()
             }
@@ -201,7 +201,7 @@ export const useAgentStore = create<AgentStore>()(
           set((state) => {
             const index = state.agents.findIndex(a => a.id === id)
             if (index !== -1) {
-              state.agents[index].status = 'stopped'
+              state.agents[index].status = 'stopped' as AgentStatus
               state.agents[index].metrics = {
                 ...state.agents[index].metrics,
                 cpu: 0,
@@ -232,7 +232,7 @@ export const useAgentStore = create<AgentStore>()(
           set((state) => {
             const index = state.agents.findIndex(a => a.id === id)
             if (index !== -1) {
-              state.agents[index].status = 'processing'
+              state.agents[index].status = 'processing' as AgentStatus
             }
           })
 
@@ -241,7 +241,7 @@ export const useAgentStore = create<AgentStore>()(
           set((state) => {
             const index = state.agents.findIndex(a => a.id === id)
             if (index !== -1) {
-              state.agents[index].status = 'active'
+              state.agents[index].status = 'active' as AgentStatus
               state.agents[index].lastActivity = new Date()
               state.agents[index].updatedAt = new Date()
             }
@@ -269,7 +269,7 @@ export const useAgentStore = create<AgentStore>()(
             id: `agent-${Date.now()}`,
             name: config.name,
             type: config.type,
-            status: 'active',
+            status: 'active' as AgentStatus,
             description: config.description,
             version: '1.0.0',
             config: config,

@@ -1,6 +1,6 @@
 
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
-import { Agent, Campaign, Advisor, OverviewMetrics, SystemLog } from '@/types';
+import { Agent, Campaign, Advisor, OverviewMetrics, LogEntry } from '@/types';
 
 /**
  * FinAdvise API Client
@@ -134,7 +134,7 @@ class FinAdviseAPI {
   }
 
   // System Logs
-  async getSystemLogs(limit = 1000): Promise<SystemLog[]> {
+  async getSystemLogs(limit = 1000): Promise<LogEntry[]> {
     const response = await this.client.get(`/logs?limit=${limit}`);
     return response.data;
   }

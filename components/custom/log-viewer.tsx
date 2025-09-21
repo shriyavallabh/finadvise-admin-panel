@@ -8,7 +8,8 @@ import { Badge } from "@/components/ui/badge"
 import { cn } from "@/components/lib/utils"
 import { LogEntry } from "@/types"
 import { Search, Download, Trash2, Pause, Play, Filter, ChevronDown, ChevronUp } from "lucide-react"
-import { FixedSizeList as List } from 'react-window'
+// import { FixedSizeList as List } from 'react-window'
+// Temporarily disabled for build - will use standard list rendering
 
 interface LogViewerProps {
   logs: LogEntry[]
@@ -57,7 +58,7 @@ export function LogViewer({
   const [autoScroll, setAutoScroll] = useState(true)
   const [expandedLogs, setExpandedLogs] = useState<Set<string>>(new Set())
 
-  const listRef = useRef<List>(null)
+  // const listRef = useRef<List>(null) // Removed react-window reference
   const containerRef = useRef<HTMLDivElement>(null)
 
   // Filter and search logs
@@ -80,8 +81,8 @@ export function LogViewer({
 
   // Auto-scroll to bottom when new logs arrive
   useEffect(() => {
-    if (autoScroll && !isPaused && listRef.current) {
-      listRef.current.scrollToItem(0, 'start')
+    if (autoScroll && !isPaused && containerRef.current) {
+      containerRef.current.scrollTop = 0
     }
   }, [filteredLogs, autoScroll, isPaused])
 
@@ -90,8 +91,7 @@ export function LogViewer({
       hour12: false,
       hour: '2-digit',
       minute: '2-digit',
-      second: '2-digit',
-      fractionalSecondDigits: 3
+      second: '2-digit'
     })
   }
 
@@ -301,15 +301,11 @@ export function LogViewer({
           style={{ height }}
         >
           {filteredLogs.length > 0 ? (
-            <List
-              ref={listRef}
-              height={height}
-              itemCount={filteredLogs.length}
-              itemSize={60}
-              overscanCount={10}
-            >
-              {LogItem}
-            </List>
+            <div className="overflow-auto" style={{ height }}>
+              {filteredLogs.map((log, index) => (
+                <LogItem key={log.id} index={index} style={{}} />
+              ))}
+            </div>
           ) : (
             <div className="flex items-center justify-center h-full text-muted-foreground">
               <div className="text-center">

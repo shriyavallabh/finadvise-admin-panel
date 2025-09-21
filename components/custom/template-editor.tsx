@@ -287,7 +287,7 @@ export function TemplateEditor({
                   readOnly={readOnly}
                 />
                 <p className="text-xs text-muted-foreground">
-                  Use variables like {{{'name'}}} or {{{'amount'}}} for personalization
+                  Use variables like {'{name}'} or {'{amount}'} for personalization
                 </p>
               </div>
 

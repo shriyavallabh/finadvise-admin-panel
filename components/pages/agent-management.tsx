@@ -204,13 +204,13 @@ export function AgentManagement({ className }: AgentManagementProps) {
       let newStatus: AgentStatus
       switch (action) {
         case 'start':
-          newStatus = 'active'
+          newStatus = 'active' as AgentStatus
           break
         case 'stop':
-          newStatus = 'stopped'
+          newStatus = 'stopped' as AgentStatus
           break
         case 'restart':
-          newStatus = 'processing'
+          newStatus = 'processing' as AgentStatus
           // Simulate restart delay
           setTimeout(() => {
             setAgents(prev => prev.map(a =>
