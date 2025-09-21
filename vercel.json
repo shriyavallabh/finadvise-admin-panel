@@ -1,0 +1,17 @@
+
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://api.finadvise.com",
+    "NEXT_PUBLIC_WEBSOCKET_URL": "wss://ws.finadvise.com"
+  },
+  "regions": ["bom1"],
+  "functions": {
+    "app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  }
+}
