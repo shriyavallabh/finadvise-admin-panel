@@ -19,7 +19,7 @@ export default function MetricCard({ title, value, change, trend, icon }: Metric
       animate={{ opacity: 1, scale: 1 }}
       whileHover={{ scale: 1.05, translateY: -5, rotateX: 5, rotateY: -5 }}
       transition={{ type: "spring", stiffness: 300 }}
-      className="glass glass-hover glass-3d glow p-6 rounded-xl relative overflow-hidden group cursor-pointer"
+      className="glass glass-hover glass-3d glow backdrop-blur-lg p-6 rounded-xl relative overflow-hidden group cursor-pointer"
       style={{
         transformStyle: 'preserve-3d',
         perspective: '1000px'

@@ -1,0 +1,679 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - button [ref=e7]:
+          - img [ref=e8]
+        - generic [ref=e9]:
+          - img [ref=e11]
+          - generic [ref=e13]: FinAdvise AI
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - img [ref=e16]
+          - textbox "Search agents, campaigns, templates..." [ref=e19]
+        - button [ref=e20]:
+          - img [ref=e21]
+        - button [ref=e28]:
+          - img [ref=e29]
+        - button "Admin" [ref=e33]:
+          - img [ref=e35]
+          - generic [ref=e38]: Admin
+          - img [ref=e39]
+    - generic [ref=e41]:
+      - complementary [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: System Status
+              - generic [ref=e47]: Online
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]: CPU
+                - generic [ref=e51]: 62%
+              - generic [ref=e54]:
+                - generic [ref=e55]: Memory
+                - generic [ref=e56]: 78%
+          - navigation [ref=e58]:
+            - link "Dashboard Live" [ref=e61] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e62] [cursor=pointer]:
+                - img [ref=e63] [cursor=pointer]
+                - generic [ref=e68] [cursor=pointer]: Dashboard
+              - generic [ref=e69] [cursor=pointer]: Live
+            - generic [ref=e70]:
+              - button "AI Agents" [ref=e72]:
+                - generic [ref=e73]:
+                  - img [ref=e74]
+                  - generic [ref=e77]: AI Agents
+                - img [ref=e79]
+              - generic [ref=e81]:
+                - link "Agent Monitor" [ref=e82] [cursor=pointer]:
+                  - /url: /agents/monitor
+                  - img [ref=e83] [cursor=pointer]
+                  - generic [ref=e85] [cursor=pointer]: Agent Monitor
+                - link "Configuration" [ref=e86] [cursor=pointer]:
+                  - /url: /agents/config
+                  - img [ref=e87] [cursor=pointer]
+                  - generic [ref=e90] [cursor=pointer]: Configuration
+                - link "Logs" [ref=e91] [cursor=pointer]:
+                  - /url: /agents/logs
+                  - img [ref=e92] [cursor=pointer]
+                  - generic [ref=e95] [cursor=pointer]: Logs
+            - link "Campaigns 12" [ref=e98] [cursor=pointer]:
+              - /url: /campaigns
+              - generic [ref=e99] [cursor=pointer]:
+                - img [ref=e100] [cursor=pointer]
+                - generic [ref=e102] [cursor=pointer]: Campaigns
+              - generic [ref=e103] [cursor=pointer]: "12"
+            - generic [ref=e104]:
+              - button "Content Studio" [ref=e106]:
+                - generic [ref=e107]:
+                  - img [ref=e108]
+                  - generic [ref=e114]: Content Studio
+                - img [ref=e116]
+              - generic [ref=e118]:
+                - link "Templates" [ref=e119] [cursor=pointer]:
+                  - /url: /content/templates
+                  - img [ref=e120] [cursor=pointer]
+                  - generic [ref=e123] [cursor=pointer]: Templates
+                - link "Generator" [ref=e124] [cursor=pointer]:
+                  - /url: /content/generator
+                  - img [ref=e125] [cursor=pointer]
+                  - generic [ref=e127] [cursor=pointer]: Generator
+                - link "Library" [ref=e128] [cursor=pointer]:
+                  - /url: /content/library
+                  - img [ref=e129] [cursor=pointer]
+                  - generic [ref=e133] [cursor=pointer]: Library
+            - link "Distribution" [ref=e136] [cursor=pointer]:
+              - /url: /distribution
+              - generic [ref=e137] [cursor=pointer]:
+                - img [ref=e138] [cursor=pointer]
+                - generic [ref=e141] [cursor=pointer]: Distribution
+            - link "Analytics" [ref=e144] [cursor=pointer]:
+              - /url: /analytics
+              - generic [ref=e145] [cursor=pointer]:
+                - img [ref=e146] [cursor=pointer]
+                - generic [ref=e148] [cursor=pointer]: Analytics
+            - link "Advisors 847" [ref=e151] [cursor=pointer]:
+              - /url: /advisors
+              - generic [ref=e152] [cursor=pointer]:
+                - img [ref=e153] [cursor=pointer]
+                - generic [ref=e158] [cursor=pointer]: Advisors
+              - generic [ref=e159] [cursor=pointer]: "847"
+            - link "Compliance" [ref=e162] [cursor=pointer]:
+              - /url: /compliance
+              - generic [ref=e163] [cursor=pointer]:
+                - img [ref=e164] [cursor=pointer]
+                - generic [ref=e166] [cursor=pointer]: Compliance
+            - button "Settings" [ref=e169]:
+              - generic [ref=e170]:
+                - img [ref=e171]
+                - generic [ref=e174]: Settings
+              - img [ref=e176]
+          - generic [ref=e179]:
+            - generic [ref=e181]: WebSocket Connected
+            - paragraph [ref=e182]: "Last sync: 2 seconds ago"
+      - main [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - heading "FinAdvise AI Dashboard" [level=1] [ref=e186]
+            - paragraph [ref=e187]: Real-time monitoring and control center for multi-agent AI system
+          - generic [ref=e188]:
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - img [ref=e194]
+                - generic [ref=e196]:
+                  - img [ref=e197]
+                  - generic [ref=e200]: +12.5%
+              - generic [ref=e201]:
+                - paragraph [ref=e202]: Total Revenue
+                - paragraph [ref=e203]: $248,956
+              - img [ref=e205]
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - img [ref=e212]
+                - generic [ref=e217]:
+                  - img [ref=e218]
+                  - generic [ref=e221]: +8.2%
+              - generic [ref=e222]:
+                - paragraph [ref=e223]: Active Users
+                - paragraph [ref=e224]: 12,847
+              - img [ref=e226]
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - img [ref=e233]
+                - generic [ref=e235]:
+                  - img [ref=e236]
+                  - generic [ref=e239]: "-2.1%"
+              - generic [ref=e240]:
+                - paragraph [ref=e241]: Conversion Rate
+                - paragraph [ref=e242]: 3.24%
+              - img [ref=e244]
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - img [ref=e251]
+                - generic [ref=e254]:
+                  - img [ref=e255]
+                  - generic [ref=e258]: +5.3%
+              - generic [ref=e259]:
+                - paragraph [ref=e260]: Growth Rate
+                - paragraph [ref=e261]: 12.5%
+              - img [ref=e263]
+          - generic [ref=e265]:
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - heading "System Health" [level=2] [ref=e270]
+                  - paragraph [ref=e271]: Real-time infrastructure monitoring
+                - generic [ref=e272]:
+                  - generic [ref=e274]: Live
+                  - button [ref=e275]:
+                    - img [ref=e276]
+              - generic [ref=e281]:
+                - generic [ref=e283]:
+                  - generic [ref=e284]:
+                    - img [ref=e286]
+                    - generic [ref=e289]:
+                      - paragraph [ref=e290]: CPU Usage
+                      - paragraph [ref=e291]: Processing capacity
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: "59"
+                    - generic [ref=e294]: "%"
+                  - generic [ref=e296]: Operating normally
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - img [ref=e301]
+                    - generic [ref=e303]:
+                      - paragraph [ref=e304]: Memory
+                      - paragraph [ref=e305]: RAM utilization
+                  - generic [ref=e306]:
+                    - generic [ref=e307]: "74"
+                    - generic [ref=e308]: "%"
+                  - generic [ref=e310]: Monitor closely
+                - generic [ref=e312]:
+                  - generic [ref=e313]:
+                    - img [ref=e315]
+                    - generic [ref=e319]:
+                      - paragraph [ref=e320]: Network
+                      - paragraph [ref=e321]: Response latency
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: "122"
+                    - generic [ref=e324]: ms
+                  - generic [ref=e325]: Operating normally
+                - generic [ref=e327]:
+                  - generic [ref=e328]:
+                    - img [ref=e330]
+                    - generic [ref=e334]:
+                      - paragraph [ref=e335]: Database
+                      - paragraph [ref=e336]: Storage capacity
+                  - generic [ref=e337]:
+                    - generic [ref=e338]: "88"
+                    - generic [ref=e339]: "%"
+                  - generic [ref=e341]: Needs attention
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - img [ref=e346]
+                    - generic [ref=e348]:
+                      - paragraph [ref=e349]: API Calls
+                      - paragraph [ref=e350]: Request throughput
+                  - generic [ref=e351]:
+                    - generic [ref=e352]: 2,938.13
+                    - generic [ref=e353]: /min
+                  - generic [ref=e354]: Operating normally
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - img [ref=e359]
+                    - generic [ref=e361]:
+                      - paragraph [ref=e362]: Security
+                      - paragraph [ref=e363]: Threat protection
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: "100"
+                    - generic [ref=e366]: "%"
+                  - generic [ref=e368]: Operating normally
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - img [ref=e372]
+                  - generic [ref=e374]:
+                    - paragraph [ref=e375]: Overall System Status
+                    - paragraph [ref=e376]: "Last checked: Just now"
+                - generic [ref=e377]:
+                  - generic [ref=e378]: Operational
+                  - generic [ref=e379]: 99.98% uptime
+            - generic [ref=e381]:
+              - generic [ref=e382]:
+                - generic [ref=e383]:
+                  - generic [ref=e384]:
+                    - img [ref=e385]
+                    - heading "Live Alerts" [level=3] [ref=e388]
+                    - generic [ref=e389]: "3"
+                  - button "View All" [ref=e390]
+                - generic [ref=e391]:
+                  - button "All (4)" [ref=e392]
+                  - button "Unread (3)" [ref=e393]
+              - generic [ref=e394]:
+                - generic [ref=e396]:
+                  - img [ref=e398]
+                  - generic [ref=e401]:
+                    - generic [ref=e402]:
+                      - generic [ref=e403]:
+                        - paragraph [ref=e404]: Campaign Launched
+                        - paragraph [ref=e405]: Tax Savings 2024 campaign is now live
+                      - button [ref=e406]:
+                        - img [ref=e407]
+                    - generic [ref=e410]:
+                      - img [ref=e411]
+                      - generic [ref=e414]: 2m ago
+                - generic [ref=e416]:
+                  - img [ref=e418]
+                  - generic [ref=e420]:
+                    - generic [ref=e421]:
+                      - generic [ref=e422]:
+                        - paragraph [ref=e423]: High CPU Usage
+                        - paragraph [ref=e424]: Content Generator agent at 92% CPU
+                      - button [ref=e425]:
+                        - img [ref=e426]
+                    - generic [ref=e429]:
+                      - img [ref=e430]
+                      - generic [ref=e433]: 15m ago
+                - generic [ref=e435]:
+                  - img [ref=e437]
+                  - generic [ref=e441]:
+                    - generic [ref=e442]:
+                      - generic [ref=e443]:
+                        - paragraph [ref=e444]: API Rate Limit
+                        - paragraph [ref=e445]: WhatsApp API rate limit approaching
+                      - button [ref=e446]:
+                        - img [ref=e447]
+                    - generic [ref=e450]:
+                      - img [ref=e451]
+                      - generic [ref=e454]: 30m ago
+                - generic [ref=e456]:
+                  - img [ref=e458]
+                  - generic [ref=e460]:
+                    - generic [ref=e461]:
+                      - generic [ref=e462]:
+                        - paragraph [ref=e463]: New Integration
+                        - paragraph [ref=e464]: LinkedIn API successfully connected
+                      - button [ref=e465]:
+                        - img [ref=e466]
+                    - generic [ref=e469]:
+                      - img [ref=e470]
+                      - generic [ref=e473]: 45m ago
+          - generic [ref=e475]:
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - heading "System Performance" [level=2] [ref=e478]
+                - paragraph [ref=e479]: Real-time request and response metrics
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - button "1h" [ref=e482]
+                  - button "6h" [ref=e483]
+                  - button "24h" [ref=e484]
+                  - button "7d" [ref=e485]
+                - button [ref=e486]:
+                  - img [ref=e487]
+                - button [ref=e489]:
+                  - img [ref=e490]
+            - generic [ref=e493]:
+              - generic [ref=e494]:
+                - paragraph [ref=e495]: Avg Response Time
+                - paragraph [ref=e496]: 124ms
+              - generic [ref=e497]:
+                - paragraph [ref=e498]: Success Rate
+                - paragraph [ref=e499]: 99.8%
+              - generic [ref=e500]:
+                - paragraph [ref=e501]: Total Requests
+                - paragraph [ref=e502]: 8.2M
+          - generic [ref=e503]:
+            - heading "Agent Status Monitor" [level=2] [ref=e504]
+            - generic [ref=e505]:
+              - generic [ref=e507]:
+                - generic [ref=e508]:
+                  - generic [ref=e509]:
+                    - heading "Content Generator" [level=3] [ref=e510]
+                    - generic [ref=e512]: active
+                  - button [ref=e513]:
+                    - img [ref=e514]
+                - generic [ref=e518]:
+                  - generic [ref=e520]:
+                    - generic [ref=e521]:
+                      - img [ref=e522]
+                      - generic [ref=e525]: CPU
+                    - generic [ref=e526]: 45%
+                  - generic [ref=e529]:
+                    - generic [ref=e530]:
+                      - img [ref=e531]
+                      - generic [ref=e533]: Memory
+                    - generic [ref=e534]: 62%
+                  - generic [ref=e536]:
+                    - generic [ref=e537]:
+                      - img [ref=e538]
+                      - generic [ref=e540]: Tasks
+                    - generic [ref=e541]: "127"
+              - generic [ref=e543]:
+                - generic [ref=e544]:
+                  - generic [ref=e545]:
+                    - heading "Market Intelligence" [level=3] [ref=e546]
+                    - generic [ref=e548]: active
+                  - button [ref=e549]:
+                    - img [ref=e550]
+                - generic [ref=e554]:
+                  - generic [ref=e556]:
+                    - generic [ref=e557]:
+                      - img [ref=e558]
+                      - generic [ref=e561]: CPU
+                    - generic [ref=e562]: 78%
+                  - generic [ref=e565]:
+                    - generic [ref=e566]:
+                      - img [ref=e567]
+                      - generic [ref=e569]: Memory
+                    - generic [ref=e570]: 85%
+                  - generic [ref=e572]:
+                    - generic [ref=e573]:
+                      - img [ref=e574]
+                      - generic [ref=e576]: Tasks
+                    - generic [ref=e577]: "89"
+              - generic [ref=e579]:
+                - generic [ref=e580]:
+                  - generic [ref=e581]:
+                    - heading "Compliance Validator" [level=3] [ref=e582]
+                    - generic [ref=e584]: idle
+                  - button [ref=e585]:
+                    - img [ref=e586]
+                - generic [ref=e590]:
+                  - generic [ref=e592]:
+                    - generic [ref=e593]:
+                      - img [ref=e594]
+                      - generic [ref=e597]: CPU
+                    - generic [ref=e598]: 12%
+                  - generic [ref=e601]:
+                    - generic [ref=e602]:
+                      - img [ref=e603]
+                      - generic [ref=e605]: Memory
+                    - generic [ref=e606]: 34%
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - img [ref=e610]
+                      - generic [ref=e612]: Tasks
+                    - generic [ref=e613]: "45"
+              - generic [ref=e615]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - heading "Quality Scorer" [level=3] [ref=e618]
+                    - generic [ref=e620]: active
+                  - button [ref=e621]:
+                    - img [ref=e622]
+                - generic [ref=e626]:
+                  - generic [ref=e628]:
+                    - generic [ref=e629]:
+                      - img [ref=e630]
+                      - generic [ref=e633]: CPU
+                    - generic [ref=e634]: 92%
+                  - generic [ref=e637]:
+                    - generic [ref=e638]:
+                      - img [ref=e639]
+                      - generic [ref=e641]: Memory
+                    - generic [ref=e642]: 88%
+                  - generic [ref=e644]:
+                    - generic [ref=e645]:
+                      - img [ref=e646]
+                      - generic [ref=e648]: Tasks
+                    - generic [ref=e649]: "234"
+              - generic [ref=e651]:
+                - generic [ref=e652]:
+                  - generic [ref=e653]:
+                    - heading "Distribution Controller" [level=3] [ref=e654]
+                    - generic [ref=e656]: active
+                  - button [ref=e657]:
+                    - img [ref=e658]
+                - generic [ref=e662]:
+                  - generic [ref=e664]:
+                    - generic [ref=e665]:
+                      - img [ref=e666]
+                      - generic [ref=e669]: CPU
+                    - generic [ref=e670]: 67%
+                  - generic [ref=e673]:
+                    - generic [ref=e674]:
+                      - img [ref=e675]
+                      - generic [ref=e677]: Memory
+                    - generic [ref=e678]: 71%
+                  - generic [ref=e680]:
+                    - generic [ref=e681]:
+                      - img [ref=e682]
+                      - generic [ref=e684]: Tasks
+                    - generic [ref=e685]: "178"
+              - generic [ref=e687]:
+                - generic [ref=e688]:
+                  - generic [ref=e689]:
+                    - heading "WhatsApp Creator" [level=3] [ref=e690]
+                    - generic [ref=e692]: processing
+                  - button [ref=e693]:
+                    - img [ref=e694]
+                - generic [ref=e698]:
+                  - generic [ref=e700]:
+                    - generic [ref=e701]:
+                      - img [ref=e702]
+                      - generic [ref=e705]: CPU
+                    - generic [ref=e706]: 89%
+                  - generic [ref=e709]:
+                    - generic [ref=e710]:
+                      - img [ref=e711]
+                      - generic [ref=e713]: Memory
+                    - generic [ref=e714]: 93%
+                  - generic [ref=e716]:
+                    - generic [ref=e717]:
+                      - img [ref=e718]
+                      - generic [ref=e720]: Tasks
+                    - generic [ref=e721]: "342"
+              - generic [ref=e723]:
+                - generic [ref=e724]:
+                  - generic [ref=e725]:
+                    - heading "LinkedIn Generator" [level=3] [ref=e726]
+                    - generic [ref=e728]: active
+                  - button [ref=e729]:
+                    - img [ref=e730]
+                - generic [ref=e734]:
+                  - generic [ref=e736]:
+                    - generic [ref=e737]:
+                      - img [ref=e738]
+                      - generic [ref=e741]: CPU
+                    - generic [ref=e742]: 56%
+                  - generic [ref=e745]:
+                    - generic [ref=e746]:
+                      - img [ref=e747]
+                      - generic [ref=e749]: Memory
+                    - generic [ref=e750]: 49%
+                  - generic [ref=e752]:
+                    - generic [ref=e753]:
+                      - img [ref=e754]
+                      - generic [ref=e756]: Tasks
+                    - generic [ref=e757]: "98"
+              - generic [ref=e759]:
+                - generic [ref=e760]:
+                  - generic [ref=e761]:
+                    - heading "Image Designer" [level=3] [ref=e762]
+                    - generic [ref=e764]: idle
+                  - button [ref=e765]:
+                    - img [ref=e766]
+                - generic [ref=e770]:
+                  - generic [ref=e772]:
+                    - generic [ref=e773]:
+                      - img [ref=e774]
+                      - generic [ref=e777]: CPU
+                    - generic [ref=e778]: 23%
+                  - generic [ref=e781]:
+                    - generic [ref=e782]:
+                      - img [ref=e783]
+                      - generic [ref=e785]: Memory
+                    - generic [ref=e786]: 41%
+                  - generic [ref=e788]:
+                    - generic [ref=e789]:
+                      - img [ref=e790]
+                      - generic [ref=e792]: Tasks
+                    - generic [ref=e793]: "67"
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - generic [ref=e797]:
+                    - heading "Fatigue Checker" [level=3] [ref=e798]
+                    - generic [ref=e800]: active
+                  - button [ref=e801]:
+                    - img [ref=e802]
+                - generic [ref=e806]:
+                  - generic [ref=e808]:
+                    - generic [ref=e809]:
+                      - img [ref=e810]
+                      - generic [ref=e813]: CPU
+                    - generic [ref=e814]: 34%
+                  - generic [ref=e817]:
+                    - generic [ref=e818]:
+                      - img [ref=e819]
+                      - generic [ref=e821]: Memory
+                    - generic [ref=e822]: 38%
+                  - generic [ref=e824]:
+                    - generic [ref=e825]:
+                      - img [ref=e826]
+                      - generic [ref=e828]: Tasks
+                    - generic [ref=e829]: "112"
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - generic [ref=e833]:
+                    - heading "Advisor Manager" [level=3] [ref=e834]
+                    - generic [ref=e836]: active
+                  - button [ref=e837]:
+                    - img [ref=e838]
+                - generic [ref=e842]:
+                  - generic [ref=e844]:
+                    - generic [ref=e845]:
+                      - img [ref=e846]
+                      - generic [ref=e849]: CPU
+                    - generic [ref=e850]: 61%
+                  - generic [ref=e853]:
+                    - generic [ref=e854]:
+                      - img [ref=e855]
+                      - generic [ref=e857]: Memory
+                    - generic [ref=e858]: 55%
+                  - generic [ref=e860]:
+                    - generic [ref=e861]:
+                      - img [ref=e862]
+                      - generic [ref=e864]: Tasks
+                    - generic [ref=e865]: "156"
+              - generic [ref=e867]:
+                - generic [ref=e868]:
+                  - generic [ref=e869]:
+                    - heading "Campaign Scheduler" [level=3] [ref=e870]
+                    - generic [ref=e872]: processing
+                  - button [ref=e873]:
+                    - img [ref=e874]
+                - generic [ref=e878]:
+                  - generic [ref=e880]:
+                    - generic [ref=e881]:
+                      - img [ref=e882]
+                      - generic [ref=e885]: CPU
+                    - generic [ref=e886]: 84%
+                  - generic [ref=e889]:
+                    - generic [ref=e890]:
+                      - img [ref=e891]
+                      - generic [ref=e893]: Memory
+                    - generic [ref=e894]: 79%
+                  - generic [ref=e896]:
+                    - generic [ref=e897]:
+                      - img [ref=e898]
+                      - generic [ref=e900]: Tasks
+                    - generic [ref=e901]: "203"
+              - generic [ref=e903]:
+                - generic [ref=e904]:
+                  - generic [ref=e905]:
+                    - heading "Analytics Tracker" [level=3] [ref=e906]
+                    - generic [ref=e908]: active
+                  - button [ref=e909]:
+                    - img [ref=e910]
+                - generic [ref=e914]:
+                  - generic [ref=e916]:
+                    - generic [ref=e917]:
+                      - img [ref=e918]
+                      - generic [ref=e921]: CPU
+                    - generic [ref=e922]: 72%
+                  - generic [ref=e925]:
+                    - generic [ref=e926]:
+                      - img [ref=e927]
+                      - generic [ref=e929]: Memory
+                    - generic [ref=e930]: 68%
+                  - generic [ref=e932]:
+                    - generic [ref=e933]:
+                      - img [ref=e934]
+                      - generic [ref=e936]: Tasks
+                    - generic [ref=e937]: "189"
+              - generic [ref=e939]:
+                - generic [ref=e940]:
+                  - generic [ref=e941]:
+                    - heading "Content Orchestrator" [level=3] [ref=e942]
+                    - generic [ref=e944]: active
+                  - button [ref=e945]:
+                    - img [ref=e946]
+                - generic [ref=e950]:
+                  - generic [ref=e952]:
+                    - generic [ref=e953]:
+                      - img [ref=e954]
+                      - generic [ref=e957]: CPU
+                    - generic [ref=e958]: 58%
+                  - generic [ref=e961]:
+                    - generic [ref=e962]:
+                      - img [ref=e963]
+                      - generic [ref=e965]: Memory
+                    - generic [ref=e966]: 52%
+                  - generic [ref=e968]:
+                    - generic [ref=e969]:
+                      - img [ref=e970]
+                      - generic [ref=e972]: Tasks
+                    - generic [ref=e973]: "145"
+              - generic [ref=e975]:
+                - generic [ref=e976]:
+                  - generic [ref=e977]:
+                    - heading "State Manager" [level=3] [ref=e978]
+                    - generic [ref=e980]: idle
+                  - button [ref=e981]:
+                    - img [ref=e982]
+                - generic [ref=e986]:
+                  - generic [ref=e988]:
+                    - generic [ref=e989]:
+                      - img [ref=e990]
+                      - generic [ref=e993]: CPU
+                    - generic [ref=e994]: 15%
+                  - generic [ref=e997]:
+                    - generic [ref=e998]:
+                      - img [ref=e999]
+                      - generic [ref=e1001]: Memory
+                    - generic [ref=e1002]: 28%
+                  - generic [ref=e1004]:
+                    - generic [ref=e1005]:
+                      - img [ref=e1006]
+                      - generic [ref=e1008]: Tasks
+                    - generic [ref=e1009]: "34"
+              - generic [ref=e1011]:
+                - generic [ref=e1012]:
+                  - generic [ref=e1013]:
+                    - heading "Communication Bus" [level=3] [ref=e1014]
+                    - generic [ref=e1016]: active
+                  - button [ref=e1017]:
+                    - img [ref=e1018]
+                - generic [ref=e1022]:
+                  - generic [ref=e1024]:
+                    - generic [ref=e1025]:
+                      - img [ref=e1026]
+                      - generic [ref=e1029]: CPU
+                    - generic [ref=e1030]: 43%
+                  - generic [ref=e1033]:
+                    - generic [ref=e1034]:
+                      - img [ref=e1035]
+                      - generic [ref=e1037]: Memory
+                    - generic [ref=e1038]: 46%
+                  - generic [ref=e1040]:
+                    - generic [ref=e1041]:
+                      - img [ref=e1042]
+                      - generic [ref=e1044]: Tasks
+                    - generic [ref=e1045]: "278"
+  - alert [ref=e1046]
+```

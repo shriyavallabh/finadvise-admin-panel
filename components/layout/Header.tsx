@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import {
   Menu, Bell, Search, User, Settings,
   LogOut, ChevronDown, Sun, Moon, Zap
@@ -28,7 +29,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: "spring", stiffness: 100 }}
-      className="glass glass-header neon-border h-16 px-6 flex items-center justify-between fixed top-0 left-0 right-0 z-50"
+      className="glass glass-header neon-border backdrop-blur-xl h-16 px-6 flex items-center justify-between fixed top-0 left-0 right-0 z-50"
       style={{
         background: 'rgba(255, 255, 255, 0.08)',
         backdropFilter: 'blur(20px) saturate(180%)',
@@ -48,7 +49,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
         </motion.button>
 
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2">
           <motion.div
             animate={{ rotate: 360 }}
             transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
@@ -57,7 +58,7 @@ export default function Header({ onMenuClick }: HeaderProps) {
             <Zap className="w-5 h-5 text-white" />
           </motion.div>
           <span className="text-xl font-bold text-gradient">FinAdvise AI</span>
-        </div>
+        </Link>
       </div>
 
       <div className="flex items-center gap-4">

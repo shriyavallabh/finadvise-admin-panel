@@ -35,7 +35,7 @@ const menuItems: MenuItem[] = [
   },
   {
     id: 'agents',
-    label: 'AI Agents',
+    label: 'Agents',
     icon: <Brain className="w-5 h-5" />,
     href: '/agents',
     children: [
@@ -118,11 +118,13 @@ export default function Sidebar({ isOpen }: SidebarProps) {
     <AnimatePresence>
       {isOpen && (
         <motion.aside
+          role="navigation"
+          aria-label="Main navigation"
           initial={{ x: -280, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: -280, opacity: 0 }}
           transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-          className="fixed left-0 top-16 h-[calc(100vh-4rem)] w-64 z-30"
+          className="fixed left-0 top-16 h-[calc(100vh-4rem)] w-64 z-30 backdrop-blur-xl"
           style={{
             background: 'rgba(255, 255, 255, 0.08)',
             backdropFilter: 'blur(20px) saturate(180%)',
